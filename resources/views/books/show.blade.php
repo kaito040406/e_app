@@ -17,17 +17,14 @@
           </div>
         </header>
         <div class="main_content_box">
-          @foreach ($books as $book)
-            <a  href="books/{{$book->id}}" method="get">
-              <div class="content_box">
-                <div class="image_box">
-                  <img src="" class="ero_box">
+          <div class="title_show">{{$title->title}}</div>
+            @foreach ($books as $book)
+              <div class="content_box_sow">
+                <div class="image_box_sow">
+                  <img src="" class="ero_box_show">
                 </div>
-                <a class="title">{{$book->title}}</a>
               </div>
-            </a>
-          @endforeach
-          {{$books->links()}}
+            @endforeach
         </div>
         <footer>
         </footer>

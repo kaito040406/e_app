@@ -16,7 +16,7 @@
             例のアレ
           </div>
         </header>
-        <div class="main_content_box">
+        <div class=".main_content_box_show">
           <div class="title_show">{{$title->title}}</div>
             @foreach ($books as $book)
               <div class="content_box_sow">

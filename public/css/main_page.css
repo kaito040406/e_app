@@ -1,74 +1,178 @@
-body{
-  background-color:#FFFFEE
-}
-header{
-  position: fixed;
-  width:100%;
-  height:80px;
-  background-image: url(/images/p0529_m.jpeg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+@media screen and (min-width:1280px) {
+  body{
+    background-color:#FFFFEE
+  }
+  header{
+    position: fixed;
+    width:100%;
+    height:80px;
+    background-image: url(/images/p0529_m.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+  footer{
+    width:100%;
+    height:100px;
+    float:left;
+    margin-top: 100px;
+    background-image: url(/images/p0529_m.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .main_title{
+    line-height:80px;
+    font-size:20px;
+    text-align: center;
+  }
+
+  .main_content_box{
+    padding-top: 200px;
+    width: 80%;
+    height: 2400px;
+    float: right;
+  }
+
+  .content_box{
+    width:400px;
+    height:400px;
+    margin:20px 4rem;
+    float: left;
+  }
+  .content_box_sow{
+    margin:5px 3rem;
+  }
+
+  .ero_box{
+    width: 375px;
+    height:525px;
+    background-color: aqua;
+  }
+
+  .ero_box_show{
+    width: 420px;
+    height:588px;
+    background-color: aqua;
+  }
+
+  .title{
+    font-size: 16px;
+  }
+
+  .title_show{
+    font-size: 20px;
+    margin: 0 5% 20px 5%;
+    padding-top:150px;
+  }
+
+  .pagination{
+    font-size:12px;
+  }
+
+
+  .page-link{
+    padding: .5rem .35rem!important;
+  }
+  .pagination{
+    float:right;
+    margin-top: 40px;
+    margin-left: .6rem;
+  }
+
+  .image_box{
+    margin-left:60px;
+  }
+
+  .image_box_sow{
+    margin-left: 25%;
+  }
+
+  .main_content_box_show{
+    width: 80%;
+    float: right;
+  }
+
 }
 
-footer{
-  width:100%;
-  height:100px;
-  background-image: url(/images/p0529_m.jpeg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-}
+@media screen and (max-width:1279px) {
+  body{
+    background-color:#FFFFEE
+  }
+  header{
+    position: fixed;
+    width:100%;
+    height:80px;
+    background-image: url(/images/p0529_m.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
 
-.main_title{
-  line-height:80px;
-  font-size:20px;
-  text-align: center;
-}
+  footer{
+    width:100%;
+    height:100px;
+    background-image: url(/images/p0529_m.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
 
-.main_content_box{
-  padding-top: 100px;
-}
+  .main_title{
+    line-height:80px;
+    font-size:20px;
+    text-align: center;
+  }
 
-.content_box{
-  margin:20px 4rem;
-}
-.content_box_sow{
-  margin:5px 3rem;
-}
+  .main_content_box{
+    padding-top: 100px;
+  }
 
-.ero_box{
-  width: 250px;
-  height:350px;
-  background-color: aqua;
-}
+  .main_content_box_show{
+    padding-top: 100px;
+  }
 
-.ero_box_show{
-  width: 280px;
-  height:392px;
-  background-color: aqua;
-}
+  .content_box{
+    margin:20px 4rem;
+  }
+  .content_box_sow{
+    margin:5px 3rem;
+  }
 
-.title{
-  font-size: 12px;
-}
+  .ero_box{
+    width: 250px;
+    height:350px;
+    background-color: aqua;
+  }
 
-.title_show{
-  font-size: 16px;
-  margin: 0 5% 20px 5%;
-}
+  .ero_box_show{
+    width: 280px;
+    height:392px;
+    background-color: aqua;
+  }
 
-.pagination{
-  font-size:12px;
-}
+  .title{
+    font-size: 12px;
+  }
+
+  .title_show{
+    font-size: 16px;
+    margin: 0 5% 20px 5%;
+  }
+
+  .pagination{
+    font-size:12px;
+  }
 
 
-.page-link{
-  padding: .5rem .35rem!important;
+  .page-link{
+    padding: .5rem .35rem!important;
+  }
+  .pagination{
+    margin-top: 40px;
+    margin-left: .6rem;
+  }
 }
-.pagination{
-  margin-top: 40px;
-  margin-left: .6rem;
-}
-
 

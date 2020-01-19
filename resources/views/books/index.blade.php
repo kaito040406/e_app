@@ -21,7 +21,7 @@
             <a  href="books/{{$book->id}}" method="get">
               <div class="content_box">
                 <div class="image_box">
-                  <img src="" class="ero_box">
+                  <img src="{{$book->image}}" class="ero_box">
                 </div>
                 <a class="title">{{$book->title}}</a>
               </div>

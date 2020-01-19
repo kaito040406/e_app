@@ -21,7 +21,7 @@
             @foreach ($books as $book)
               <div class="content_box_sow">
                 <div class="image_box_sow">
-                  <img src="" class="ero_box_show">
+                  <img src="{{$book->image}}" class="ero_box_show">
                 </div>
               </div>
             @endforeach
